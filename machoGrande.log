@@ -1,0 +1,1607 @@
+execve("/usr/local/bin/python3.6", ["/usr/local/bin/python3.6", "machoGrande.py"], [/* 32 vars */]) = 0
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+open("/usr/lib64/gconv/gconv-modules.cache", O_RDONLY) = 3
+readlink("/usr/local/bin/python3.6", 0x7ffc1b7ef770, 4096) = -1 EINVAL (Invalid argument)
+open("/usr/local/bin/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/local/pyvenv.cfg", O_RDONLY) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/Modules/Setup", 0x7ffc1b7f0700) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/lib/python3.6/os.py", 0x7ffc1b7f06f0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/lib/python3.6/os.pyc", 0x7ffc1b7f06f0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/os.py", {st_mode=S_IFREG|0644, st_size=37525, ...}) = 0
+stat("/usr/local/bin/pybuilddir.txt", 0x7ffc1b7f0700) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/lib/python3.6/lib-dynload", 0x7ffc1b7f0700) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python36.zip", 0x7ffc1b8013d0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python36.zip", 0x7ffc1b800c10) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/python3.6", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6/encodings/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7ffc1b800fb0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/encodings/__init__.abi3.so", 0x7ffc1b800fb0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/encodings/__init__.so", 0x7ffc1b800fb0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5642, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/codecs.py", {st_mode=S_IFREG|0644, st_size=36276, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/codecs.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6/encodings", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/python3.6/encodings", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6/encodings/aliases.py", {st_mode=S_IFREG|0644, st_size=15577, ...}) = 0
+open("/usr/local/lib/python3.6/encodings/__pycache__/aliases.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6/encodings", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/encodings/utf_8.py", {st_mode=S_IFREG|0644, st_size=1005, ...}) = 0
+open("/usr/local/lib/python3.6/encodings/__pycache__/utf_8.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6/encodings", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/encodings/latin_1.py", {st_mode=S_IFREG|0644, st_size=1264, ...}) = 0
+open("/usr/local/lib/python3.6/encodings/__pycache__/latin_1.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/io.py", {st_mode=S_IFREG|0644, st_size=3517, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/io.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/abc.py", {st_mode=S_IFREG|0644, st_size=8648, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/abc.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/_weakrefset.py", {st_mode=S_IFREG|0644, st_size=5705, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/_weakrefset.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/_bootlocale.py", {st_mode=S_IFREG|0644, st_size=1301, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/_bootlocale.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site.py", {st_mode=S_IFREG|0644, st_size=20433, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/site.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/os.py", {st_mode=S_IFREG|0644, st_size=37525, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/os.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/stat.py", {st_mode=S_IFREG|0644, st_size=5038, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/stat.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/posixpath.py", {st_mode=S_IFREG|0644, st_size=15349, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/posixpath.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/genericpath.py", {st_mode=S_IFREG|0644, st_size=4756, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/genericpath.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/_collections_abc.py", {st_mode=S_IFREG|0644, st_size=26303, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/_collections_abc.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6/_sitebuiltins.py", {st_mode=S_IFREG|0644, st_size=3115, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/_sitebuiltins.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+stat("/usr/local/bin/pyvenv.cfg", 0x7ffc1b800f50) = -1 ENOENT (No such file or directory)
+stat("/usr/local/pyvenv.cfg", 0x7ffc1b800f50) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/sysconfig.py", {st_mode=S_IFREG|0644, st_size=24861, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/sysconfig.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/bin/python3.6", {st_mode=S_IFREG|0755, st_size=11533928, ...}) = 0
+stat("/usr/local/bin/Modules/Setup.dist", 0x7ffc1b7ffb50) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/Modules/Setup.local", 0x7ffc1b7ffb50) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/_sysconfigdata_m_linux_x86_64-linux-gnu.py", {st_mode=S_IFREG|0644, st_size=18843, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/_sysconfigdata_m_linux_x86_64-linux-gnu.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+lstat("/usr/local/lib/python3.6/config-3.6m-x86_64-linux-gnu", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/osboxes/.local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/osboxes/.local/lib/python3.6/site-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+stat("/usr/local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/python3.6/site-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+open("/usr/local/lib/python3.6/site-packages/easy-install.pth", O_RDONLY|O_CLOEXEC) = 3
+stat("/home/osboxes/proj/cloudrobin/cloudrobin/src/pynamodb", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/virtualenvwrapper-4.8.2-py2.7-nspkg.pth", O_RDONLY|O_CLOEXEC) = 3
+read(3, "import sys, types, os;has_mfs = "..., 8192) = 594
+stat("/usr/local/lib/python3.6/types.py", {st_mode=S_IFREG|0644, st_size=8870, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/types.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+stat("/usr/local/lib/python3.6/functools.py", {st_mode=S_IFREG|0644, st_size=31142, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/functools.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+stat("/usr/local/lib/python3.6/collections/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7ffc1b7fd930) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/collections/__init__.abi3.so", 0x7ffc1b7fd930) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/collections/__init__.so", 0x7ffc1b7fd930) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/collections/__init__.py", {st_mode=S_IFREG|0644, st_size=45812, ...}) = 0
+open("/usr/local/lib/python3.6/collections/__pycache__/__init__.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+stat("/usr/local/lib/python3.6/operator.py", {st_mode=S_IFREG|0644, st_size=10863, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/operator.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+stat("/usr/local/lib/python3.6/keyword.py", {st_mode=S_IFREG|0755, st_size=2211, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/keyword.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+stat("/usr/local/lib/python3.6/heapq.py", {st_mode=S_IFREG|0644, st_size=22929, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/heapq.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/python3.6/lib-dynload", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+getdents(4, /* 68 entries */, 32768)    = 4240
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+stat("/usr/local/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=51544, ...}) = 0
+futex(0x7ff3fd9360d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/usr/local/lib/python3.6/lib-dynload/_heapq.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\v\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0755, st_size=51544, ...}) = 0
+mmap(NULL, 2117032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7ff3f66bd000
+mprotect(0x7ff3f66c0000, 2093056, PROT_NONE) = 0
+mmap(0x7ff3f68bf000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x2000) = 0x7ff3f68bf000
+close(4)                                = 0
+mprotect(0x7ff3f68bf000, 4096, PROT_READ) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/reprlib.py", {st_mode=S_IFREG|0644, st_size=5336, ...}) = 0
+stat("/usr/local/lib/python3.6/reprlib.py", {st_mode=S_IFREG|0644, st_size=5336, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/reprlib.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=5406, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=5406, ...}) = 0
+read(4, "3\r\r\n\320=(Z\330\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0"..., 5407) = 5406
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/weakref.py", {st_mode=S_IFREG|0644, st_size=20466, ...}) = 0
+stat("/usr/local/lib/python3.6/weakref.py", {st_mode=S_IFREG|0644, st_size=20466, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/weakref.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=19149, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=19149, ...}) = 0
+read(4, "3\r\r\n\320=(Z\362O\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0"..., 19150) = 19149
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/usr/local/lib/python3.6/collections", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/collections", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/collections", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/python3.6/collections", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+getdents(4, /* 5 entries */, 32768)     = 144
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+stat("/usr/local/lib/python3.6/collections/abc.py", {st_mode=S_IFREG|0644, st_size=68, ...}) = 0
+stat("/usr/local/lib/python3.6/collections/abc.py", {st_mode=S_IFREG|0644, st_size=68, ...}) = 0
+open("/usr/local/lib/python3.6/collections/__pycache__/abc.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=177, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=177, ...}) = 0
+read(4, "3\r\r\n\330=(ZD\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0@\0\0"..., 178) = 177
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/importlib/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7ffc1b7febc0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/importlib/__init__.abi3.so", 0x7ffc1b7febc0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/importlib/__init__.so", 0x7ffc1b7febc0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/importlib/__init__.py", {st_mode=S_IFREG|0644, st_size=5870, ...}) = 0
+stat("/usr/local/lib/python3.6/importlib/__init__.py", {st_mode=S_IFREG|0644, st_size=5870, ...}) = 0
+open("/usr/local/lib/python3.6/importlib/__pycache__/__init__.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=3596, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=3596, ...}) = 0
+read(4, "3\r\r\n\337=(Z\356\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0#\0\0\0@\0\0"..., 3597) = 3596
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/warnings.py", {st_mode=S_IFREG|0644, st_size=18488, ...}) = 0
+stat("/usr/local/lib/python3.6/warnings.py", {st_mode=S_IFREG|0644, st_size=18488, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/warnings.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=13264, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=13264, ...}) = 0
+read(4, "3\r\r\n\320=(Z8H\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0"..., 13265) = 13264
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/usr/local/lib/python3.6/importlib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/importlib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/importlib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/python3.6/importlib", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+getdents(4, /* 9 entries */, 32768)     = 296
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+stat("/usr/local/lib/python3.6/importlib/util.py", {st_mode=S_IFREG|0644, st_size=10883, ...}) = 0
+stat("/usr/local/lib/python3.6/importlib/util.py", {st_mode=S_IFREG|0644, st_size=10883, ...}) = 0
+open("/usr/local/lib/python3.6/importlib/__pycache__/util.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=8896, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=8896, ...}) = 0
+read(4, "3\r\r\n\337=(Z\203*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 8897) = 8896
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/usr/local/lib/python3.6/importlib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/importlib/abc.py", {st_mode=S_IFREG|0644, st_size=10782, ...}) = 0
+stat("/usr/local/lib/python3.6/importlib/abc.py", {st_mode=S_IFREG|0644, st_size=10782, ...}) = 0
+open("/usr/local/lib/python3.6/importlib/__pycache__/abc.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=11289, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=11289, ...}) = 0
+read(4, "3\r\r\n\337=(Z\36*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\"\0\0\0@\0\0"..., 11290) = 11289
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/usr/local/lib/python3.6/importlib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/importlib/machinery.py", {st_mode=S_IFREG|0644, st_size=844, ...}) = 0
+stat("/usr/local/lib/python3.6/importlib/machinery.py", {st_mode=S_IFREG|0644, st_size=844, ...}) = 0
+open("/usr/local/lib/python3.6/importlib/__pycache__/machinery.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=946, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=946, ...}) = 0
+read(4, "3\r\r\n\337=(ZL\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0\0@\0\0"..., 947) = 946
+read(4, "", 1)                          = 0
+close(4)                                = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/contextlib.py", {st_mode=S_IFREG|0644, st_size=13162, ...}) = 0
+stat("/usr/local/lib/python3.6/contextlib.py", {st_mode=S_IFREG|0644, st_size=13162, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/contextlib.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=11164, ...}) = 0
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=11164, ...}) = 0
+read(4, "3\r\r\n\317=(Zj3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0@\0\0"..., 11165) = 11164
+read(4, "", 1)                          = 0
+close(4)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3f667d000
+stat("/usr/local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/python3.6/site-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 4
+getdents(4, /* 154 entries */, 32768)   = 6048
+getdents(4, /* 0 entries */, 32768)     = 0
+close(4)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/virtualenvwrapper/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7ffc1b7ffee0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/site-packages/virtualenvwrapper/__init__.abi3.so", 0x7ffc1b7ffee0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/site-packages/virtualenvwrapper/__init__.so", 0x7ffc1b7ffee0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/site-packages/virtualenvwrapper/__init__.py", 0x7ffc1b7ffee0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/site-packages/virtualenvwrapper/__init__.pyc", 0x7ffc1b7ffee0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/site-packages/virtualenvwrapper", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/osboxes/.local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/osboxes/.local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/osboxes/.local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/osboxes/.local/lib/python3.6/site-packages", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+brk(NULL)                               = 0x1cb5000
+brk(0x1cd7000)                          = 0x1cd7000
+getdents(3, /* 2 entries */, 32768)     = 48
+getdents(3, /* 0 entries */, 32768)     = 0
+brk(NULL)                               = 0x1cd7000
+brk(NULL)                               = 0x1cd7000
+brk(0x1ccf000)                          = 0x1ccf000
+brk(NULL)                               = 0x1ccf000
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/cloudrobin/cloudrobin/src/pynamodb", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/cloudrobin/cloudrobin/src/pynamodb", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/cloudrobin/cloudrobin/src/pynamodb", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/osboxes/proj/cloudrobin/cloudrobin/src/pynamodb", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 18 entries */, 32768)    = 568
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/osboxes/.local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/cloudrobin/cloudrobin/src/pynamodb", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("machoGrande.py", {st_mode=S_IFREG|0664, st_size=2507, ...}) = 0
+open("machoGrande.py", O_RDONLY)        = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=2507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3fdd6b000
+fstat(3, {st_mode=S_IFREG|0664, st_size=2507, ...}) = 0
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "import os\nfrom   pathlib        "..., 2485) = 2485
+read(3, "rande?'],cwd=projdir)\n", 4096) = 22
+close(3)                                = 0
+munmap(0x7ff3fdd6b000, 4096)            = 0
+stat("machoGrande.py", {st_mode=S_IFREG|0664, st_size=2507, ...}) = 0
+readlink("machoGrande.py", 0x7ffc1b7f1910, 4096) = -1 EINVAL (Invalid argument)
+getcwd("/home/osboxes/proj/machoGrande", 4096) = 31
+lstat("/home/osboxes/proj/machoGrande/machoGrande.py", {st_mode=S_IFREG|0664, st_size=2507, ...}) = 0
+open("machoGrande.py", O_RDONLY)        = 3
+ioctl(3, FIOCLEX)                       = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=2507, ...}) = 0
+ioctl(3, TCGETS, 0x7ffc1b8028a0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=2507, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3fdd6b000
+read(3, "import os\nfrom   pathlib        "..., 4096) = 2507
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "import os\nfrom   pathlib        "..., 4096) = 2507
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7ff3fdd6b000, 4096)            = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/osboxes/proj/machoGrande", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 6 entries */, 32768)     = 208
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/pathlib.py", {st_mode=S_IFREG|0644, st_size=47802, ...}) = 0
+stat("/usr/local/lib/python3.6/pathlib.py", {st_mode=S_IFREG|0644, st_size=47802, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/pathlib.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=40749, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=40749, ...}) = 0
+read(3, "3\r\r\n\320=(Z\272\272\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0@\0\0"..., 40750) = 40749
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/fnmatch.py", {st_mode=S_IFREG|0644, st_size=3166, ...}) = 0
+stat("/usr/local/lib/python3.6/fnmatch.py", {st_mode=S_IFREG|0644, st_size=3166, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/fnmatch.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2880, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2880, ...}) = 0
+read(3, "3\r\r\n\317=(Z^\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 2881) = 2880
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/re.py", {st_mode=S_IFREG|0644, st_size=15552, ...}) = 0
+stat("/usr/local/lib/python3.6/re.py", {st_mode=S_IFREG|0644, st_size=15552, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/re.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=14064, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=14064, ...}) = 0
+read(3, "3\r\r\n\320=(Z\300<\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0#\0\0\0@\0\0"..., 14065) = 14064
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/enum.py", {st_mode=S_IFREG|0644, st_size=33472, ...}) = 0
+stat("/usr/local/lib/python3.6/enum.py", {st_mode=S_IFREG|0644, st_size=33472, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/enum.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=23417, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=23417, ...}) = 0
+read(3, "3\r\r\n\317=(Z\300\202\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\17\0\0\0@\0\0"..., 23418) = 23417
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3f663d000
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/sre_compile.py", {st_mode=S_IFREG|0644, st_size=19338, ...}) = 0
+stat("/usr/local/lib/python3.6/sre_compile.py", {st_mode=S_IFREG|0644, st_size=19338, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/sre_compile.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=10284, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=10284, ...}) = 0
+read(3, "3\r\r\n\320=(Z\212K\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\21\0\0\0@\0\0"..., 10285) = 10284
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/sre_parse.py", {st_mode=S_IFREG|0644, st_size=36536, ...}) = 0
+stat("/usr/local/lib/python3.6/sre_parse.py", {st_mode=S_IFREG|0644, st_size=36536, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/sre_parse.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=20364, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=20364, ...}) = 0
+read(3, "3\r\r\n\320=(Z\270\216\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0\0@\0\0"..., 20365) = 20364
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/sre_constants.py", {st_mode=S_IFREG|0644, st_size=6821, ...}) = 0
+stat("/usr/local/lib/python3.6/sre_constants.py", {st_mode=S_IFREG|0644, st_size=6821, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/sre_constants.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5978, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=5978, ...}) = 0
+read(3, "3\r\r\n\320=(Z\245\32\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0@\0\0"..., 5979) = 5978
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/copyreg.py", {st_mode=S_IFREG|0644, st_size=7007, ...}) = 0
+stat("/usr/local/lib/python3.6/copyreg.py", {st_mode=S_IFREG|0644, st_size=7007, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/copyreg.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4250, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=4250, ...}) = 0
+read(3, "3\r\r\n\317=(Z_\33\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\f\0\0\0@\0\0"..., 4251) = 4250
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/ntpath.py", {st_mode=S_IFREG|0644, st_size=23148, ...}) = 0
+stat("/usr/local/lib/python3.6/ntpath.py", {st_mode=S_IFREG|0644, st_size=23148, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/ntpath.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=13671, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=13671, ...}) = 0
+read(3, "3\r\r\n\317=(ZlZ\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0@\0\0"..., 13672) = 13671
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/osboxes/.local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/cloudrobin/cloudrobin/src/pynamodb", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/osboxes/.local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/cloudrobin/cloudrobin/src/pynamodb", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/osboxes/.local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/cloudrobin/cloudrobin/src/pynamodb", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/urllib/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7ffc1b7ff870) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/urllib/__init__.abi3.so", 0x7ffc1b7ff870) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/urllib/__init__.so", 0x7ffc1b7ff870) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/urllib/__init__.py", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+stat("/usr/local/lib/python3.6/urllib/__init__.py", {st_mode=S_IFREG|0644, st_size=0, ...}) = 0
+open("/usr/local/lib/python3.6/urllib/__pycache__/__init__.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=119, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=119, ...}) = 0
+read(3, "3\r\r\n\333=(Z\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0@\0\0"..., 120) = 119
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/urllib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/urllib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/urllib", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/python3.6/urllib", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+brk(NULL)                               = 0x1ccf000
+brk(0x1cf5000)                          = 0x1cf5000
+getdents(3, /* 9 entries */, 32768)     = 280
+getdents(3, /* 0 entries */, 32768)     = 0
+brk(NULL)                               = 0x1cf5000
+brk(NULL)                               = 0x1cf5000
+brk(0x1ced000)                          = 0x1ced000
+brk(NULL)                               = 0x1ced000
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/urllib/parse.py", {st_mode=S_IFREG|0644, st_size=36603, ...}) = 0
+stat("/usr/local/lib/python3.6/urllib/parse.py", {st_mode=S_IFREG|0644, st_size=36603, ...}) = 0
+open("/usr/local/lib/python3.6/urllib/__pycache__/parse.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=29388, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=29388, ...}) = 0
+read(3, "3\r\r\n\333=(Z\373\216\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\31\0\0\0@\0\0"..., 29389) = 29388
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3f65fd000
+munmap(0x7ff3f65fd000, 262144)          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3f65fd000
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/shutil.py", {st_mode=S_IFREG|0644, st_size=40227, ...}) = 0
+stat("/usr/local/lib/python3.6/shutil.py", {st_mode=S_IFREG|0644, st_size=40227, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/shutil.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=30391, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=30391, ...}) = 0
+read(3, "3\r\r\n\320=(Z#\235\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0A\0\0\0@\0\0"..., 30392) = 30391
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=104320, ...}) = 0
+open("/usr/local/lib/python3.6/lib-dynload/zlib.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\34\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=104320, ...}) = 0
+mmap(NULL, 2128488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff3f63f5000
+mprotect(0x7ff3f63fb000, 2093056, PROT_NONE) = 0
+mmap(0x7ff3f65fa000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7ff3f65fa000
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=99632, ...}) = 0
+mmap(NULL, 99632, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff3fdb98000
+close(3)                                = 0
+open("/lib64/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=90664, ...}) = 0
+mmap(NULL, 2183688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff3f61df000
+mprotect(0x7ff3f61f4000, 2093056, PROT_NONE) = 0
+mmap(0x7ff3f63f3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7ff3f63f3000
+close(3)                                = 0
+mprotect(0x7ff3f63f3000, 4096, PROT_READ) = 0
+mprotect(0x7ff3f65fa000, 4096, PROT_READ) = 0
+munmap(0x7ff3fdb98000, 99632)           = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/bz2.py", {st_mode=S_IFREG|0644, st_size=12478, ...}) = 0
+stat("/usr/local/lib/python3.6/bz2.py", {st_mode=S_IFREG|0644, st_size=12478, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/bz2.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=11288, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=11288, ...}) = 0
+read(3, "3\r\r\n\317=(Z\2760\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0"..., 11289) = 11288
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/_compression.py", {st_mode=S_IFREG|0644, st_size=5340, ...}) = 0
+stat("/usr/local/lib/python3.6/_compression.py", {st_mode=S_IFREG|0644, st_size=5340, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/_compression.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4110, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=4110, ...}) = 0
+read(3, "3\r\r\n\317=(Z\334\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 4111) = 4110
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/threading.py", {st_mode=S_IFREG|0644, st_size=49036, ...}) = 0
+stat("/usr/local/lib/python3.6/threading.py", {st_mode=S_IFREG|0644, st_size=49036, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/threading.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=37247, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=37247, ...}) = 0
+brk(NULL)                               = 0x1ced000
+brk(0x1d12000)                          = 0x1d12000
+read(3, "3\r\r\n\320=(Z\214\277\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\35\0\0\0@\0\0"..., 37248) = 37247
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3f619f000
+brk(NULL)                               = 0x1d12000
+brk(NULL)                               = 0x1d12000
+brk(0x1d09000)                          = 0x1d09000
+brk(NULL)                               = 0x1d09000
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3661, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3661, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3fdd6b000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0\7\0\0\0\0"..., 4096) = 3661
+lseek(3, -2338, SEEK_CUR)               = 1323
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\10\0\0\0\0"..., 4096) = 2338
+close(3)                                = 0
+munmap(0x7ff3fdd6b000, 4096)            = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/traceback.py", {st_mode=S_IFREG|0644, st_size=23116, ...}) = 0
+stat("/usr/local/lib/python3.6/traceback.py", {st_mode=S_IFREG|0644, st_size=23116, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/traceback.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=19542, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=19542, ...}) = 0
+read(3, "3\r\r\n\320=(ZLZ\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\23\0\0\0@\0\0"..., 19543) = 19542
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/linecache.py", {st_mode=S_IFREG|0644, st_size=5312, ...}) = 0
+stat("/usr/local/lib/python3.6/linecache.py", {st_mode=S_IFREG|0644, st_size=5312, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/linecache.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3784, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3784, ...}) = 0
+read(3, "3\r\r\n\317=(Z\300\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0@\0\0"..., 3785) = 3784
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/tokenize.py", {st_mode=S_IFREG|0644, st_size=28959, ...}) = 0
+stat("/usr/local/lib/python3.6/tokenize.py", {st_mode=S_IFREG|0644, st_size=28959, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/tokenize.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=18549, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=18549, ...}) = 0
+read(3, "3\r\r\n\320=(Z\37q\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0-\0\0\0@\0\0"..., 18550) = 18549
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 299008, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3f6156000
+munmap(0x7ff3fdbf1000, 151552)          = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/token.py", {st_mode=S_IFREG|0644, st_size=3075, ...}) = 0
+stat("/usr/local/lib/python3.6/token.py", {st_mode=S_IFREG|0644, st_size=3075, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/token.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3326, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3326, ...}) = 0
+read(3, "3\r\r\n\320=(Z\3\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 3327) = 3326
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=63648, ...}) = 0
+open("/usr/local/lib/python3.6/lib-dynload/_bz2.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=63648, ...}) = 0
+mmap(NULL, 2117144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff3f5f51000
+mprotect(0x7ff3f5f55000, 2093056, PROT_NONE) = 0
+mmap(0x7ff3f6154000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7ff3f6154000
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=99632, ...}) = 0
+mmap(NULL, 99632, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7ff3fdbfd000
+close(3)                                = 0
+open("/lib64/libbz2.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\27\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=68192, ...}) = 0
+mmap(NULL, 2162024, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff3f5d41000
+mprotect(0x7ff3f5d50000, 2093056, PROT_NONE) = 0
+mmap(0x7ff3f5f4f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7ff3f5f4f000
+close(3)                                = 0
+mprotect(0x7ff3f5f4f000, 4096, PROT_READ) = 0
+mprotect(0x7ff3f6154000, 4096, PROT_READ) = 0
+munmap(0x7ff3fdbfd000, 99632)           = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lzma.py", {st_mode=S_IFREG|0644, st_size=12983, ...}) = 0
+stat("/usr/local/lib/python3.6/lzma.py", {st_mode=S_IFREG|0644, st_size=12983, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/lzma.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=11998, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=11998, ...}) = 0
+read(3, "3\r\r\n\317=(Z\2672\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0$\0\0\0@\0\0"..., 11999) = 11998
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/osboxes/.local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/cloudrobin/cloudrobin/src/pynamodb", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=35088, ...}) = 0
+open("/usr/local/lib/python3.6/lib-dynload/grp.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=35088, ...}) = 0
+mmap(NULL, 2107864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff3f5b3e000
+mprotect(0x7ff3f5b40000, 2093056, PROT_NONE) = 0
+mmap(0x7ff3f5d3f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7ff3f5d3f000
+close(3)                                = 0
+mprotect(0x7ff3f5d3f000, 4096, PROT_READ) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3f5afe000
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/subprocess.py", {st_mode=S_IFREG|0644, st_size=61799, ...}) = 0
+stat("/usr/local/lib/python3.6/subprocess.py", {st_mode=S_IFREG|0644, st_size=61799, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/subprocess.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=35162, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=35162, ...}) = 0
+read(3, "3\r\r\n\320=(Zg\361\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\26\0\0\0@\0\0"..., 35163) = 35162
+read(3, "", 1)                          = 0
+close(3)                                = 0
+brk(NULL)                               = 0x1d09000
+brk(0x1d2e000)                          = 0x1d2e000
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/signal.py", {st_mode=S_IFREG|0644, st_size=2123, ...}) = 0
+stat("/usr/local/lib/python3.6/signal.py", {st_mode=S_IFREG|0644, st_size=2123, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/signal.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2521, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2521, ...}) = 0
+read(3, "3\r\r\n\320=(ZK\10\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0@\0\0"..., 2522) = 2521
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=55408, ...}) = 0
+open("/usr/local/lib/python3.6/lib-dynload/_posixsubprocess.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \24\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=55408, ...}) = 0
+mmap(NULL, 2110952, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff3f58fa000
+mprotect(0x7ff3f58fd000, 2093056, PROT_NONE) = 0
+mmap(0x7ff3f5afc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7ff3f5afc000
+close(3)                                = 0
+mprotect(0x7ff3f5afc000, 4096, PROT_READ) = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=81592, ...}) = 0
+open("/usr/local/lib/python3.6/lib-dynload/select.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\37\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=81592, ...}) = 0
+mmap(NULL, 2123416, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff3f56f3000
+mprotect(0x7ff3f56f8000, 2093056, PROT_NONE) = 0
+mmap(0x7ff3f58f7000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7ff3f58f7000
+close(3)                                = 0
+mprotect(0x7ff3f58f7000, 4096, PROT_READ) = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/selectors.py", {st_mode=S_IFREG|0644, st_size=19438, ...}) = 0
+stat("/usr/local/lib/python3.6/selectors.py", {st_mode=S_IFREG|0644, st_size=19438, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/selectors.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=17703, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=17703, ...}) = 0
+read(3, "3\r\r\n\320=(Z\356K\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0@\0\0"..., 17704) = 17703
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=144512, ...}) = 0
+open("/usr/local/lib/python3.6/lib-dynload/math.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260+\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144512, ...}) = 0
+mmap(NULL, 2144936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff3f54e7000
+mprotect(0x7ff3f54f0000, 2097152, PROT_NONE) = 0
+mmap(0x7ff3f56f0000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7ff3f56f0000
+close(3)                                = 0
+mprotect(0x7ff3f56f0000, 4096, PROT_READ) = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/osboxes/.local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/__init__.cpython-36m-x86_64-linux-gnu.so", 0x7ffc1b801050) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/site-packages/yaml/__init__.abi3.so", 0x7ffc1b801050) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/site-packages/yaml/__init__.so", 0x7ffc1b801050) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python3.6/site-packages/yaml/__init__.py", {st_mode=S_IFREG|0777, st_size=9607, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/__init__.py", {st_mode=S_IFREG|0777, st_size=9607, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/__init__.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=9157, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=9157, ...}) = 0
+read(3, "3\r\r\n<z\303W\207%\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\26\0\0\0@\0\0"..., 9158) = 9157
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/local/lib/python3.6/site-packages/yaml", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 20 entries */, 32768)    = 648
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/error.py", {st_mode=S_IFREG|0777, st_size=2533, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/error.py", {st_mode=S_IFREG|0777, st_size=2533, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/error.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2245, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2245, ...}) = 0
+read(3, "3\r\r\n<z\303W\345\t\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 2246) = 2245
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/tokens.py", {st_mode=S_IFREG|0777, st_size=2573, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/tokens.py", {st_mode=S_IFREG|0777, st_size=2573, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/tokens.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5188, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=5188, ...}) = 0
+read(3, "3\r\r\n<z\303W\r\n\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 5189) = 5188
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/events.py", {st_mode=S_IFREG|0777, st_size=2445, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/events.py", {st_mode=S_IFREG|0777, st_size=2445, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/events.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4031, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=4031, ...}) = 0
+read(3, "3\r\r\n<z\303W\215\t\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 4032) = 4031
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/nodes.py", {st_mode=S_IFREG|0777, st_size=1440, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/nodes.py", {st_mode=S_IFREG|0777, st_size=1440, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/nodes.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1689, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1689, ...}) = 0
+read(3, "3\r\r\n<z\303W\240\5\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 1690) = 1689
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/loader.py", {st_mode=S_IFREG|0777, st_size=1138, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/loader.py", {st_mode=S_IFREG|0777, st_size=1138, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/loader.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1492, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1492, ...}) = 0
+read(3, "3\r\r\n<z\303Wr\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\t\0\0\0@\0\0"..., 1493) = 1492
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/reader.py", {st_mode=S_IFREG|0777, st_size=6854, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/reader.py", {st_mode=S_IFREG|0777, st_size=6854, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/reader.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=4445, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=4445, ...}) = 0
+read(3, "3\r\r\n<z\303W\306\32\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 4446) = 4445
+read(3, "", 1)                          = 0
+close(3)                                = 0
+brk(NULL)                               = 0x1d2e000
+brk(0x1d53000)                          = 0x1d53000
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/scanner.py", {st_mode=S_IFREG|0777, st_size=51695, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/scanner.py", {st_mode=S_IFREG|0777, st_size=51695, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/scanner.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26041, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=26041, ...}) = 0
+read(3, "3\r\r\n<z\303W\357\311\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 26042) = 26041
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3f54a7000
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/parser.py", {st_mode=S_IFREG|0777, st_size=25495, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/parser.py", {st_mode=S_IFREG|0777, st_size=25495, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/parser.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=11865, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=11865, ...}) = 0
+read(3, "3\r\r\n<z\303W\227c\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 11866) = 11865
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/composer.py", {st_mode=S_IFREG|0777, st_size=4881, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/composer.py", {st_mode=S_IFREG|0777, st_size=4881, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/composer.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3492, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3492, ...}) = 0
+read(3, "3\r\r\n<z\303W\21\23\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 3493) = 3492
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/constructor.py", {st_mode=S_IFREG|0777, st_size=25554, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/constructor.py", {st_mode=S_IFREG|0777, st_size=25554, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/constructor.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=18794, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=18794, ...}) = 0
+read(3, "3\r\r\n<z\303W\322c\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 18795) = 18794
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/datetime.py", {st_mode=S_IFREG|0644, st_size=80145, ...}) = 0
+stat("/usr/local/lib/python3.6/datetime.py", {st_mode=S_IFREG|0644, st_size=80145, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/datetime.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=53756, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=53756, ...}) = 0
+read(3, "3\r\r\n\317=(Z\0219\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0\0@\0\0"..., 53757) = 53756
+read(3, "", 1)                          = 0
+close(3)                                = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3f5467000
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=462432, ...}) = 0
+open("/usr/local/lib/python3.6/lib-dynload/_datetime.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340D\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=462432, ...}) = 0
+mmap(NULL, 2199864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff3f524d000
+mprotect(0x7ff3f5263000, 2097152, PROT_NONE) = 0
+mmap(0x7ff3f5463000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7ff3f5463000
+close(3)                                = 0
+mprotect(0x7ff3f5463000, 4096, PROT_READ) = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/base64.py", {st_mode=S_IFREG|0755, st_size=20487, ...}) = 0
+stat("/usr/local/lib/python3.6/base64.py", {st_mode=S_IFREG|0755, st_size=20487, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/base64.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=17141, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=17141, ...}) = 0
+read(3, "3\r\r\n\317=(Z\7P\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\22\0\0\0@\0\0"..., 17142) = 17141
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/struct.py", {st_mode=S_IFREG|0644, st_size=257, ...}) = 0
+stat("/usr/local/lib/python3.6/struct.py", {st_mode=S_IFREG|0644, st_size=257, ...}) = 0
+open("/usr/local/lib/python3.6/__pycache__/struct.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=318, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=318, ...}) = 0
+read(3, "3\r\r\n\320=(Z\1\1\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0@\0\0"..., 319) = 318
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=158608, ...}) = 0
+open("/usr/local/lib/python3.6/lib-dynload/_struct.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@,\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=158608, ...}) = 0
+mmap(NULL, 2142008, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff3f5042000
+mprotect(0x7ff3f504b000, 2093056, PROT_NONE) = 0
+mmap(0x7ff3f524a000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7ff3f524a000
+close(3)                                = 0
+mprotect(0x7ff3f524a000, 4096, PROT_READ) = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=78544, ...}) = 0
+open("/usr/local/lib/python3.6/lib-dynload/binascii.cpython-36m-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=78544, ...}) = 0
+mmap(NULL, 2120776, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7ff3f4e3c000
+mprotect(0x7ff3f4e41000, 2093056, PROT_NONE) = 0
+mmap(0x7ff3f5040000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7ff3f5040000
+close(3)                                = 0
+mprotect(0x7ff3f5040000, 4096, PROT_READ) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/resolver.py", {st_mode=S_IFREG|0777, st_size=8970, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/resolver.py", {st_mode=S_IFREG|0777, st_size=8970, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/resolver.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=5436, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=5436, ...}) = 0
+read(3, "3\r\r\n<z\303W\n#\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0@\0\0"..., 5437) = 5436
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/dumper.py", {st_mode=S_IFREG|0777, st_size=2723, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/dumper.py", {st_mode=S_IFREG|0777, st_size=2723, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/dumper.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1983, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1983, ...}) = 0
+read(3, "3\r\r\n<z\303W\243\n\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0@\0\0"..., 1984) = 1983
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/emitter.py", {st_mode=S_IFREG|0777, st_size=42954, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/emitter.py", {st_mode=S_IFREG|0777, st_size=42954, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/emitter.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=25338, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=25338, ...}) = 0
+read(3, "3\r\r\n<z\303W\312\247\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 25339) = 25338
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/serializer.py", {st_mode=S_IFREG|0777, st_size=4165, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/serializer.py", {st_mode=S_IFREG|0777, st_size=4165, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/serializer.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3325, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=3325, ...}) = 0
+read(3, "3\r\r\n<z\303WE\20\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 3326) = 3325
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/representer.py", {st_mode=S_IFREG|0777, st_size=14097, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/representer.py", {st_mode=S_IFREG|0777, st_size=14097, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/representer.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=10072, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=10072, ...}) = 0
+read(3, "3\r\r\n<z\303W\0217\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0\0@\0\0"..., 10073) = 10072
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/cyaml.py", {st_mode=S_IFREG|0777, st_size=3294, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages/yaml/cyaml.py", {st_mode=S_IFREG|0777, st_size=3294, ...}) = 0
+open("/usr/local/lib/python3.6/site-packages/yaml/__pycache__/cyaml.cpython-36.pyc", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2948, ...}) = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2948, ...}) = 0
+read(3, "3\r\r\n<z\303W\336\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0@\0\0"..., 2949) = 2948
+read(3, "", 1)                          = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/machoGrande", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/osboxes/.local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python3.6/site-packages", {st_mode=S_IFDIR|0777, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/cloudrobin/cloudrobin/src/pynamodb", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+open("/home/osboxes/proj/machoGrande/machoGrande.yaml", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=382, ...}) = 0
+ioctl(3, TCGETS, 0x7ffc1b802250)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffc1b8021f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0664, st_size=382, ...}) = 0
+read(3, "full_name: Chris Smith\nemail: sm"..., 383) = 382
+read(3, "", 1)                          = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7ff3f4dfc000
+close(3)                                = 0
+mkdir("/home/osboxes/proj/cedar2666", 0777) = 0
+pipe2([3, 4], O_CLOEXEC)                = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff3fdd56a10) = 7749
+close(4)                                = 0
+read(3, "", 50000)                      = 0
+close(3)                                = 0
+wait4(7749, Creating a virtualenv for this project…
+Using /usr/local/bin/python3 to create virtualenv…
+Running virtualenv with interpreter /usr/local/bin/python3
+Using base prefix '/usr/local'
+New python executable in /home/osboxes/proj/cedar2666-6k3vI_yO/bin/python3
+Also creating executable in /home/osboxes/proj/cedar2666-6k3vI_yO/bin/python
+Installing setuptools, pip, wheel...done.
+
+Virtualenv location: /home/osboxes/proj/cedar2666-6k3vI_yO
+Creating a Pipfile for this project…
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 7749
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7749, si_uid=1000, si_status=0, si_utime=75, si_stime=7} ---
+stat("/home/osboxes/proj", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/osboxes/proj", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 45 entries */, 32768)    = 1496
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/home/osboxes/proj/cedar2666-6k3vI_yO", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/cedar2666/Pipfile", {st_mode=S_IFREG|0664, st_size=152, ...}) = 0
+stat("/home/osboxes/proj/cedar2666-6k3vI_yO", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+stat("/home/osboxes/proj/cedar2666-6k3vI_yO/Pipfile", 0x7ffc1b802140) = -1 ENOENT (No such file or directory)
+rename("/home/osboxes/proj/cedar2666/Pipfile", "/home/osboxes/proj/cedar2666-6k3vI_yO/Pipfile") = 0
+rmdir("/home/osboxes/proj/cedar2666")   = 0
+stat("/home/osboxes/proj/cedar2666", 0x7ffc1b802140) = -1 ENOENT (No such file or directory)
+rename("/home/osboxes/proj/cedar2666-6k3vI_yO", "/home/osboxes/proj/cedar2666") = 0
+open("/home/osboxes/proj/cedar2666/bin/activate", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=2096, ...}) = 0
+ioctl(3, TCGETS, 0x7ffc1b802250)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffc1b8021f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "# This file must be used with \"s"..., 8192) = 2096
+read(3, "", 8192)                       = 0
+close(3)                                = 0
+open("/home/osboxes/proj/cedar2666/bin/activate", O_WRONLY|O_CREAT|O_TRUNC|O_CLOEXEC, 0666) = 3
+fstat(3, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+ioctl(3, TCGETS, 0x7ffc1b802250)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+ioctl(3, TCGETS, 0x7ffc1b8021f0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+lseek(3, 0, SEEK_CUR)                   = 0
+write(3, "# This file must be used with \"s"..., 2087) = 2087
+close(3)                                = 0
+pipe2([3, 4], O_CLOEXEC)                = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff3fdd56a10) = 7770
+close(4)                                = 0
+read(3, "", 50000)                      = 0
+close(3)                                = 0
+wait4(7770, DEBUG cookiecutter.main: context_file is /home/osboxes/.cookiecutters/cookiecutter-cedar/cookiecutter.json
+DEBUG cookiecutter.generate: Context generated is {'cookiecutter': OrderedDict([('full_name', 'Chris Smith'), ('email', 'smith_christopher@bah.com'), ('github_username', 'smitty1egh'), ('project_name', 'cedar2666'), ('project_slug', 'cedar2666'), ('project_short_description', 'CF template for Nexus server and autoscaling group'), ('pypi_username', 'smitty1egh'), ('version', '0.1.0'), ('use_pytest', 'n'), ('use_pypi_deployment_with_travis', 'y'), ('command_line_interface', 'Click'), ('create_author_file', 'y'), ('open_source_license', 'MIT license')])}
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/.cookiecutter_replay/
+DEBUG cookiecutter.find: Searching /home/osboxes/.cookiecutters/cookiecutter-cedar for the project template.
+DEBUG cookiecutter.find: The project template appears to be /home/osboxes/.cookiecutters/cookiecutter-cedar/{{cookiecutter.project_slug}}
+DEBUG cookiecutter.generate: Generating project from /home/osboxes/.cookiecutters/cookiecutter-cedar/{{cookiecutter.project_slug}}...
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666 must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.generate: Output directory /home/osboxes/proj/cedar2666 already exists,overwriting it
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666
+DEBUG cookiecutter.generate: Project directory is /home/osboxes/proj/cedar2666
+DEBUG cookiecutter.hooks: hooks_dir is /home/osboxes/.cookiecutters/cookiecutter-cedar/hooks
+DEBUG cookiecutter.hooks: Running hook pre_gen_project
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666/cedar2666 must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666/cedar2666
+DEBUG cookiecutter.utils: Created directory at: /home/osboxes/proj/cedar2666/cedar2666
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666/.github must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666/.github
+DEBUG cookiecutter.utils: Created directory at: /home/osboxes/proj/cedar2666/.github
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666/docs must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666/docs
+DEBUG cookiecutter.utils: Created directory at: /home/osboxes/proj/cedar2666/docs
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666/tests must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666/tests
+DEBUG cookiecutter.utils: Created directory at: /home/osboxes/proj/cedar2666/tests
+DEBUG cookiecutter.generate: Processing file tox.ini
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/tox.ini
+DEBUG cookiecutter.generate: Check tox.ini to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/tox.ini
+DEBUG cookiecutter.generate: Processing file MANIFEST.in
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/MANIFEST.in
+DEBUG cookiecutter.generate: Check MANIFEST.in to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/MANIFEST.in
+DEBUG cookiecutter.generate: Processing file HISTORY.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/HISTORY.rst
+DEBUG cookiecutter.generate: Check HISTORY.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/HISTORY.rst
+DEBUG cookiecutter.generate: Processing file setup.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/setup.py
+DEBUG cookiecutter.generate: Check setup.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/setup.py
+DEBUG cookiecutter.generate: Processing file .editorconfig
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/.editorconfig
+DEBUG cookiecutter.generate: Check .editorconfig to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/.editorconfig
+DEBUG cookiecutter.generate: Processing file Makefile
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/Makefile
+DEBUG cookiecutter.generate: Check Makefile to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/Makefile
+DEBUG cookiecutter.generate: Processing file travis_pypi_setup.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/travis_pypi_setup.py
+DEBUG cookiecutter.generate: Check travis_pypi_setup.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/travis_pypi_setup.py
+DEBUG cookiecutter.generate: Processing file requirements_dev.txt
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/requirements_dev.txt
+DEBUG cookiecutter.generate: Check requirements_dev.txt to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/requirements_dev.txt
+DEBUG cookiecutter.generate: Processing file setup.cfg
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/setup.cfg
+DEBUG cookiecutter.generate: Check setup.cfg to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/setup.cfg
+DEBUG cookiecutter.generate: Processing file README.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/README.rst
+DEBUG cookiecutter.generate: Check README.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/README.rst
+DEBUG cookiecutter.generate: Processing file AUTHORS.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/AUTHORS.rst
+DEBUG cookiecutter.generate: Check AUTHORS.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/AUTHORS.rst
+DEBUG cookiecutter.generate: Processing file .travis.yml
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/.travis.yml
+DEBUG cookiecutter.generate: Check .travis.yml to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/.travis.yml
+DEBUG cookiecutter.generate: Processing file CONTRIBUTING.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/CONTRIBUTING.rst
+DEBUG cookiecutter.generate: Check CONTRIBUTING.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/CONTRIBUTING.rst
+DEBUG cookiecutter.generate: Processing file LICENSE
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/LICENSE
+DEBUG cookiecutter.generate: Check LICENSE to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/LICENSE
+DEBUG cookiecutter.generate: Processing file .gitignore
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/.gitignore
+DEBUG cookiecutter.generate: Check .gitignore to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/.gitignore
+DEBUG cookiecutter.generate: Processing file {{cookiecutter.project_slug}}/cli.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/cedar2666/cli.py
+DEBUG cookiecutter.generate: Check {{cookiecutter.project_slug}}/cli.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/cedar2666/cli.py
+DEBUG cookiecutter.generate: Processing file {{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/cedar2666/cedar2666.py
+DEBUG cookiecutter.generate: Check {{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/cedar2666/cedar2666.py
+DEBUG cookiecutter.generate: Processing file {{cookiecutter.project_slug}}/__init__.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/cedar2666/__init__.py
+DEBUG cookiecutter.generate: Check {{cookiecutter.project_slug}}/__init__.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/cedar2666/__init__.py
+DEBUG cookiecutter.generate: Processing file .github/ISSUE_TEMPLATE.md
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/.github/ISSUE_TEMPLATE.md
+DEBUG cookiecutter.generate: Check .github/ISSUE_TEMPLATE.md to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/.github/ISSUE_TEMPLATE.md
+DEBUG cookiecutter.generate: Processing file docs/installation.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/installation.rst
+DEBUG cookiecutter.generate: Check docs/installation.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/installation.rst
+DEBUG cookiecutter.generate: Processing file docs/contributing.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/contributing.rst
+DEBUG cookiecutter.generate: Check docs/contributing.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/contributing.rst
+DEBUG cookiecutter.generate: Processing file docs/history.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/history.rst
+DEBUG cookiecutter.generate: Check docs/history.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/history.rst
+DEBUG cookiecutter.generate: Processing file docs/authors.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/authors.rst
+DEBUG cookiecutter.generate: Check docs/authors.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/authors.rst
+DEBUG cookiecutter.generate: Processing file docs/readme.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/readme.rst
+DEBUG cookiecutter.generate: Check docs/readme.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/readme.rst
+DEBUG cookiecutter.generate: Processing file docs/Makefile
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/Makefile
+DEBUG cookiecutter.generate: Check docs/Makefile to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/Makefile
+DEBUG cookiecutter.generate: Processing file docs/usage.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/usage.rst
+DEBUG cookiecutter.generate: Check docs/usage.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/usage.rst
+DEBUG cookiecutter.generate: Processing file docs/index.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/index.rst
+DEBUG cookiecutter.generate: Check docs/index.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/index.rst
+DEBUG cookiecutter.generate: Processing file docs/conf.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/conf.py
+DEBUG cookiecutter.generate: Check docs/conf.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/conf.py
+DEBUG cookiecutter.generate: Processing file docs/.gitignore
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/.gitignore
+DEBUG cookiecutter.generate: Check docs/.gitignore to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/.gitignore
+DEBUG cookiecutter.generate: Processing file docs/make.bat
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/make.bat
+DEBUG cookiecutter.generate: Check docs/make.bat to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/make.bat
+DEBUG cookiecutter.generate: Processing file tests/test_{{cookiecutter.project_slug}}.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/tests/test_cedar2666.py
+DEBUG cookiecutter.generate: Check tests/test_{{cookiecutter.project_slug}}.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/tests/test_cedar2666.py
+DEBUG cookiecutter.generate: Processing file tests/__init__.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/tests/__init__.py
+DEBUG cookiecutter.generate: Check tests/__init__.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/tests/__init__.py
+DEBUG cookiecutter.hooks: hooks_dir is /home/osboxes/.cookiecutters/cookiecutter-cedar/hooks
+DEBUG cookiecutter.hooks: Running hook post_gen_project
+[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 7770
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7770, si_uid=1000, si_status=0, si_utime=45, si_stime=3} ---
+pipe2([3, 4], O_CLOEXEC)                = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff3fdd56a10) = 7773
+close(4)                                = 0
+read(3, Initialized empty Git repository in /home/osboxes/proj/cedar2666/.git/
+"", 50000)                      = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7773, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+close(3)                                = 0
+wait4(7773, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 7773
+pipe2([3, 4], O_CLOEXEC)                = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff3fdd56a10) = 7774
+close(4)                                = 0
+read(3, "", 50000)                      = 0
+close(3)                                = 0
+wait4(7774, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 7774
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7774, si_uid=1000, si_status=0, si_utime=28, si_stime=1} ---
+pipe2([3, 4], O_CLOEXEC)                = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff3fdd56a10) = 7775
+close(4)                                = 0
+read(3, [master (root-commit) a852d75] Over Macho Grande?
+ 49 files changed, 1893 insertions(+)
+ create mode 100644 .editorconfig
+ create mode 100644 .github/ISSUE_TEMPLATE.md
+ create mode 100644 .gitignore
+ create mode 100644 .travis.yml
+ create mode 100644 AUTHORS.rst
+ create mode 100644 CONTRIBUTING.rst
+ create mode 100644 HISTORY.rst
+ create mode 100644 LICENSE
+ create mode 100644 MANIFEST.in
+ create mode 100644 Makefile
+ create mode 100644 Pipfile
+ create mode 100644 README.rst
+ create mode 100644 bin/activate
+ create mode 100644 bin/activate.csh
+ create mode 100644 bin/activate.fish
+ create mode 100644 bin/activate_this.py
+ create mode 100755 bin/easy_install
+ create mode 100755 bin/easy_install-3.6
+ create mode 100755 bin/pip
+ create mode 100755 bin/pip3
+ create mode 100755 bin/pip3.6
+ create mode 120000 bin/python
+ create mode 100755 bin/python-config
+ create mode 100755 bin/python3
+ create mode 120000 bin/python3.6
+ create mode 100755 bin/wheel
+ create mode 100644 cedar2666/__init__.py
+ create mode 100644 cedar2666/cedar2666.py
+ create mode 100644 cedar2666/cli.py
+ create mode 100644 docs/.gitignore
+ create mode 100644 docs/Makefile
+ create mode 100644 docs/authors.rst
+ create mode 100755 docs/conf.py
+ create mode 100644 docs/contributing.rst
+ create mode 100644 docs/history.rst
+ create mode 100644 docs/index.rst
+ create mode 100644 docs/installation.rst
+ create mode 100644 docs/make.bat
+ create mode 100644 docs/readme.rst
+ create mode 100644 docs/usage.rst
+ create mode 120000 include/python3.6m
+ create mode 100644 pip-selfcheck.json
+ create mode 100644 requirements_dev.txt
+ create mode 100644 setup.cfg
+ create mode 100644 setup.py
+ create mode 100644 tests/__init__.py
+ create mode 100644 tests/test_cedar2666.py
+ create mode 100644 tox.ini
+ create mode 100644 travis_pypi_setup.py
+"", 50000)                      = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=7775, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+close(3)                                = 0
+wait4(7775, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 7775
+write(1, " the realdir is /home/osboxes/pr"..., 54 the realdir is /home/osboxes/proj/cedar2666-6k3vI_yO
+) = 54
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7ff3fd9465e0}, {0x573a50, [], SA_RESTORER, 0x7ff3fd9465e0}, 8) = 0
+munmap(0x7ff3f4dfc000, 262144)          = 0
+sigaltstack(NULL, {ss_sp=0x1c175b0, ss_flags=0, ss_size=8192}) = 0
+sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}, NULL) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
+DEBUG cookiecutter.main: context_file is /home/osboxes/.cookiecutters/cookiecutter-cedar/cookiecutter.json
+DEBUG cookiecutter.generate: Context generated is {'cookiecutter': OrderedDict([('full_name', 'Chris Smith'), ('email', 'smith_christopher@bah.com'), ('github_username', 'smitty1egh'), ('project_name', 'cedar2666'), ('project_slug', 'cedar2666'), ('project_short_description', 'CF template for Nexus server and autoscaling group'), ('pypi_username', 'smitty1egh'), ('version', '0.1.0'), ('use_pytest', 'n'), ('use_pypi_deployment_with_travis', 'y'), ('command_line_interface', 'Click'), ('create_author_file', 'y'), ('open_source_license', 'MIT license')])}
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/.cookiecutter_replay/
+DEBUG cookiecutter.find: Searching /home/osboxes/.cookiecutters/cookiecutter-cedar for the project template.
+DEBUG cookiecutter.find: The project template appears to be /home/osboxes/.cookiecutters/cookiecutter-cedar/{{cookiecutter.project_slug}}
+DEBUG cookiecutter.generate: Generating project from /home/osboxes/.cookiecutters/cookiecutter-cedar/{{cookiecutter.project_slug}}...
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666 must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.generate: Output directory /home/osboxes/proj/cedar2666 already exists,overwriting it
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666
+DEBUG cookiecutter.generate: Project directory is /home/osboxes/proj/cedar2666
+DEBUG cookiecutter.hooks: hooks_dir is /home/osboxes/.cookiecutters/cookiecutter-cedar/hooks
+DEBUG cookiecutter.hooks: Running hook pre_gen_project
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666/cedar2666 must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666/cedar2666
+DEBUG cookiecutter.utils: Created directory at: /home/osboxes/proj/cedar2666/cedar2666
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666/.github must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666/.github
+DEBUG cookiecutter.utils: Created directory at: /home/osboxes/proj/cedar2666/.github
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666/docs must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666/docs
+DEBUG cookiecutter.utils: Created directory at: /home/osboxes/proj/cedar2666/docs
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666/tests must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666/tests
+DEBUG cookiecutter.utils: Created directory at: /home/osboxes/proj/cedar2666/tests
+DEBUG cookiecutter.generate: Processing file tox.ini
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/tox.ini
+DEBUG cookiecutter.generate: Check tox.ini to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/tox.ini
+DEBUG cookiecutter.generate: Processing file MANIFEST.in
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/MANIFEST.in
+DEBUG cookiecutter.generate: Check MANIFEST.in to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/MANIFEST.in
+DEBUG cookiecutter.generate: Processing file HISTORY.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/HISTORY.rst
+DEBUG cookiecutter.generate: Check HISTORY.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/HISTORY.rst
+DEBUG cookiecutter.generate: Processing file setup.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/setup.py
+DEBUG cookiecutter.generate: Check setup.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/setup.py
+DEBUG cookiecutter.generate: Processing file .editorconfig
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/.editorconfig
+DEBUG cookiecutter.generate: Check .editorconfig to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/.editorconfig
+DEBUG cookiecutter.generate: Processing file Makefile
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/Makefile
+DEBUG cookiecutter.generate: Check Makefile to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/Makefile
+DEBUG cookiecutter.generate: Processing file travis_pypi_setup.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/travis_pypi_setup.py
+DEBUG cookiecutter.generate: Check travis_pypi_setup.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/travis_pypi_setup.py
+DEBUG cookiecutter.generate: Processing file requirements_dev.txt
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/requirements_dev.txt
+DEBUG cookiecutter.generate: Check requirements_dev.txt to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/requirements_dev.txt
+DEBUG cookiecutter.generate: Processing file setup.cfg
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/setup.cfg
+DEBUG cookiecutter.generate: Check setup.cfg to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/setup.cfg
+DEBUG cookiecutter.generate: Processing file README.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/README.rst
+DEBUG cookiecutter.generate: Check README.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/README.rst
+DEBUG cookiecutter.generate: Processing file AUTHORS.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/AUTHORS.rst
+DEBUG cookiecutter.generate: Check AUTHORS.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/AUTHORS.rst
+DEBUG cookiecutter.generate: Processing file .travis.yml
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/.travis.yml
+DEBUG cookiecutter.generate: Check .travis.yml to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/.travis.yml
+DEBUG cookiecutter.generate: Processing file CONTRIBUTING.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/CONTRIBUTING.rst
+DEBUG cookiecutter.generate: Check CONTRIBUTING.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/CONTRIBUTING.rst
+DEBUG cookiecutter.generate: Processing file LICENSE
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/LICENSE
+DEBUG cookiecutter.generate: Check LICENSE to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/LICENSE
+DEBUG cookiecutter.generate: Processing file .gitignore
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/.gitignore
+DEBUG cookiecutter.generate: Check .gitignore to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/.gitignore
+DEBUG cookiecutter.generate: Processing file {{cookiecutter.project_slug}}/cli.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/cedar2666/cli.py
+DEBUG cookiecutter.generate: Check {{cookiecutter.project_slug}}/cli.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/cedar2666/cli.py
+DEBUG cookiecutter.generate: Processing file {{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/cedar2666/cedar2666.py
+DEBUG cookiecutter.generate: Check {{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/cedar2666/cedar2666.py
+DEBUG cookiecutter.generate: Processing file {{cookiecutter.project_slug}}/__init__.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/cedar2666/__init__.py
+DEBUG cookiecutter.generate: Check {{cookiecutter.project_slug}}/__init__.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/cedar2666/__init__.py
+DEBUG cookiecutter.generate: Processing file .github/ISSUE_TEMPLATE.md
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/.github/ISSUE_TEMPLATE.md
+DEBUG cookiecutter.generate: Check .github/ISSUE_TEMPLATE.md to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/.github/ISSUE_TEMPLATE.md
+DEBUG cookiecutter.generate: Processing file docs/installation.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/installation.rst
+DEBUG cookiecutter.generate: Check docs/installation.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/installation.rst
+DEBUG cookiecutter.generate: Processing file docs/contributing.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/contributing.rst
+DEBUG cookiecutter.generate: Check docs/contributing.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/contributing.rst
+DEBUG cookiecutter.generate: Processing file docs/history.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/history.rst
+DEBUG cookiecutter.generate: Check docs/history.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/history.rst
+DEBUG cookiecutter.generate: Processing file docs/authors.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/authors.rst
+DEBUG cookiecutter.generate: Check docs/authors.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/authors.rst
+DEBUG cookiecutter.generate: Processing file docs/readme.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/readme.rst
+DEBUG cookiecutter.generate: Check docs/readme.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/readme.rst
+DEBUG cookiecutter.generate: Processing file docs/Makefile
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/Makefile
+DEBUG cookiecutter.generate: Check docs/Makefile to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/Makefile
+DEBUG cookiecutter.generate: Processing file docs/usage.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/usage.rst
+DEBUG cookiecutter.generate: Check docs/usage.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/usage.rst
+DEBUG cookiecutter.generate: Processing file docs/index.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/index.rst
+DEBUG cookiecutter.generate: Check docs/index.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/index.rst
+DEBUG cookiecutter.generate: Processing file docs/conf.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/conf.py
+DEBUG cookiecutter.generate: Check docs/conf.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/conf.py
+DEBUG cookiecutter.generate: Processing file docs/.gitignore
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/.gitignore
+DEBUG cookiecutter.generate: Check docs/.gitignore to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/.gitignore
+DEBUG cookiecutter.generate: Processing file docs/make.bat
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/make.bat
+DEBUG cookiecutter.generate: Check docs/make.bat to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/make.bat
+DEBUG cookiecutter.generate: Processing file tests/test_{{cookiecutter.project_slug}}.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/tests/test_cedar2666.py
+DEBUG cookiecutter.generate: Check tests/test_{{cookiecutter.project_slug}}.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/tests/test_cedar2666.py
+DEBUG cookiecutter.generate: Processing file tests/__init__.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/tests/__init__.py
+DEBUG cookiecutter.generate: Check tests/__init__.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/tests/__init__.py
+DEBUG cookiecutter.hooks: hooks_dir is /home/osboxes/.cookiecutters/cookiecutter-cedar/hooks
+DEBUG cookiecutter.hooks: Running hook post_gen_project
+DEBUG cookiecutter.main: context_file is /home/osboxes/.cookiecutters/cookiecutter-cedar/cookiecutter.json
+DEBUG cookiecutter.generate: Context generated is {'cookiecutter': OrderedDict([('full_name', 'Chris Smith'), ('email', 'smith_christopher@bah.com'), ('github_username', 'smitty1egh'), ('project_name', 'cedar2666'), ('project_slug', 'cedar2666'), ('project_short_description', 'CF template for Nexus server and autoscaling group'), ('pypi_username', 'smitty1egh'), ('version', '0.1.0'), ('use_pytest', 'n'), ('use_pypi_deployment_with_travis', 'y'), ('command_line_interface', 'Click'), ('create_author_file', 'y'), ('open_source_license', 'MIT license')])}
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/.cookiecutter_replay/
+DEBUG cookiecutter.find: Searching /home/osboxes/.cookiecutters/cookiecutter-cedar for the project template.
+DEBUG cookiecutter.find: The project template appears to be /home/osboxes/.cookiecutters/cookiecutter-cedar/{{cookiecutter.project_slug}}
+DEBUG cookiecutter.generate: Generating project from /home/osboxes/.cookiecutters/cookiecutter-cedar/{{cookiecutter.project_slug}}...
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666 must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.generate: Output directory /home/osboxes/proj/cedar2666 already exists,overwriting it
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666
+DEBUG cookiecutter.generate: Project directory is /home/osboxes/proj/cedar2666
+DEBUG cookiecutter.hooks: hooks_dir is /home/osboxes/.cookiecutters/cookiecutter-cedar/hooks
+DEBUG cookiecutter.hooks: Running hook pre_gen_project
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666/cedar2666 must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666/cedar2666
+DEBUG cookiecutter.utils: Created directory at: /home/osboxes/proj/cedar2666/cedar2666
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666/.github must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666/.github
+DEBUG cookiecutter.utils: Created directory at: /home/osboxes/proj/cedar2666/.github
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666/docs must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666/docs
+DEBUG cookiecutter.utils: Created directory at: /home/osboxes/proj/cedar2666/docs
+DEBUG cookiecutter.generate: Rendered dir /home/osboxes/proj/cedar2666/tests must exist in output_dir /home/osboxes/proj
+DEBUG cookiecutter.utils: Making sure path exists: /home/osboxes/proj/cedar2666/tests
+DEBUG cookiecutter.utils: Created directory at: /home/osboxes/proj/cedar2666/tests
+DEBUG cookiecutter.generate: Processing file tox.ini
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/tox.ini
+DEBUG cookiecutter.generate: Check tox.ini to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/tox.ini
+DEBUG cookiecutter.generate: Processing file MANIFEST.in
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/MANIFEST.in
+DEBUG cookiecutter.generate: Check MANIFEST.in to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/MANIFEST.in
+DEBUG cookiecutter.generate: Processing file HISTORY.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/HISTORY.rst
+DEBUG cookiecutter.generate: Check HISTORY.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/HISTORY.rst
+DEBUG cookiecutter.generate: Processing file setup.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/setup.py
+DEBUG cookiecutter.generate: Check setup.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/setup.py
+DEBUG cookiecutter.generate: Processing file .editorconfig
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/.editorconfig
+DEBUG cookiecutter.generate: Check .editorconfig to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/.editorconfig
+DEBUG cookiecutter.generate: Processing file Makefile
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/Makefile
+DEBUG cookiecutter.generate: Check Makefile to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/Makefile
+DEBUG cookiecutter.generate: Processing file travis_pypi_setup.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/travis_pypi_setup.py
+DEBUG cookiecutter.generate: Check travis_pypi_setup.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/travis_pypi_setup.py
+DEBUG cookiecutter.generate: Processing file requirements_dev.txt
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/requirements_dev.txt
+DEBUG cookiecutter.generate: Check requirements_dev.txt to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/requirements_dev.txt
+DEBUG cookiecutter.generate: Processing file setup.cfg
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/setup.cfg
+DEBUG cookiecutter.generate: Check setup.cfg to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/setup.cfg
+DEBUG cookiecutter.generate: Processing file README.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/README.rst
+DEBUG cookiecutter.generate: Check README.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/README.rst
+DEBUG cookiecutter.generate: Processing file AUTHORS.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/AUTHORS.rst
+DEBUG cookiecutter.generate: Check AUTHORS.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/AUTHORS.rst
+DEBUG cookiecutter.generate: Processing file .travis.yml
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/.travis.yml
+DEBUG cookiecutter.generate: Check .travis.yml to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/.travis.yml
+DEBUG cookiecutter.generate: Processing file CONTRIBUTING.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/CONTRIBUTING.rst
+DEBUG cookiecutter.generate: Check CONTRIBUTING.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/CONTRIBUTING.rst
+DEBUG cookiecutter.generate: Processing file LICENSE
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/LICENSE
+DEBUG cookiecutter.generate: Check LICENSE to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/LICENSE
+DEBUG cookiecutter.generate: Processing file .gitignore
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/.gitignore
+DEBUG cookiecutter.generate: Check .gitignore to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/.gitignore
+DEBUG cookiecutter.generate: Processing file {{cookiecutter.project_slug}}/cli.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/cedar2666/cli.py
+DEBUG cookiecutter.generate: Check {{cookiecutter.project_slug}}/cli.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/cedar2666/cli.py
+DEBUG cookiecutter.generate: Processing file {{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/cedar2666/cedar2666.py
+DEBUG cookiecutter.generate: Check {{cookiecutter.project_slug}}/{{cookiecutter.project_slug}}.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/cedar2666/cedar2666.py
+DEBUG cookiecutter.generate: Processing file {{cookiecutter.project_slug}}/__init__.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/cedar2666/__init__.py
+DEBUG cookiecutter.generate: Check {{cookiecutter.project_slug}}/__init__.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/cedar2666/__init__.py
+DEBUG cookiecutter.generate: Processing file .github/ISSUE_TEMPLATE.md
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/.github/ISSUE_TEMPLATE.md
+DEBUG cookiecutter.generate: Check .github/ISSUE_TEMPLATE.md to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/.github/ISSUE_TEMPLATE.md
+DEBUG cookiecutter.generate: Processing file docs/installation.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/installation.rst
+DEBUG cookiecutter.generate: Check docs/installation.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/installation.rst
+DEBUG cookiecutter.generate: Processing file docs/contributing.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/contributing.rst
+DEBUG cookiecutter.generate: Check docs/contributing.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/contributing.rst
+DEBUG cookiecutter.generate: Processing file docs/history.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/history.rst
+DEBUG cookiecutter.generate: Check docs/history.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/history.rst
+DEBUG cookiecutter.generate: Processing file docs/authors.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/authors.rst
+DEBUG cookiecutter.generate: Check docs/authors.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/authors.rst
+DEBUG cookiecutter.generate: Processing file docs/readme.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/readme.rst
+DEBUG cookiecutter.generate: Check docs/readme.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/readme.rst
+DEBUG cookiecutter.generate: Processing file docs/Makefile
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/Makefile
+DEBUG cookiecutter.generate: Check docs/Makefile to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/Makefile
+DEBUG cookiecutter.generate: Processing file docs/usage.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/usage.rst
+DEBUG cookiecutter.generate: Check docs/usage.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/usage.rst
+DEBUG cookiecutter.generate: Processing file docs/index.rst
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/index.rst
+DEBUG cookiecutter.generate: Check docs/index.rst to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/index.rst
+DEBUG cookiecutter.generate: Processing file docs/conf.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/conf.py
+DEBUG cookiecutter.generate: Check docs/conf.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/conf.py
+DEBUG cookiecutter.generate: Processing file docs/.gitignore
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/.gitignore
+DEBUG cookiecutter.generate: Check docs/.gitignore to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/.gitignore
+DEBUG cookiecutter.generate: Processing file docs/make.bat
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/docs/make.bat
+DEBUG cookiecutter.generate: Check docs/make.bat to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/docs/make.bat
+DEBUG cookiecutter.generate: Processing file tests/test_{{cookiecutter.project_slug}}.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/tests/test_cedar2666.py
+DEBUG cookiecutter.generate: Check tests/test_{{cookiecutter.project_slug}}.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/tests/test_cedar2666.py
+DEBUG cookiecutter.generate: Processing file tests/__init__.py
+DEBUG cookiecutter.generate: Created file at /home/osboxes/proj/cedar2666/tests/__init__.py
+DEBUG cookiecutter.generate: Check tests/__init__.py to see if it's a binary
+DEBUG cookiecutter.generate: Writing contents to file /home/osboxes/proj/cedar2666/tests/__init__.py
+DEBUG cookiecutter.hooks: hooks_dir is /home/osboxes/.cookiecutters/cookiecutter-cedar/hooks
+DEBUG cookiecutter.hooks: Running hook post_gen_project

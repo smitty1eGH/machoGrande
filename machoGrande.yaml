@@ -1,0 +1,13 @@
+full_name: Chris Smith
+email: smitty1e@gmail.com
+github_username: smitty1egh
+project_name: fcrc
+project_slug: fcrc
+project_short_description: Social media manager
+pypi_username: smitty1egh
+version: 0.1.0
+use_pytest: n
+use_pypi_deployment_with_travis: y
+command_line_interface: Click
+create_author_file: y
+open_source_license: MIT license
