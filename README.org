@@ -1,0 +1,23 @@
+* machoGrande
+  This is a Python project generation tool.
+  It leverages:
+  - virtualenvwrapper
+  - pipenv
+  - cookiecutter
+
+* layout
+  machoGrande is laid out as follows:
+  machoGrande/                  virtual environment
+  \-machoGrande/                project, including this file
+    \-ccs/                      cookiecutter collection
+      \-cookiecutter-pybase/    initial python project
+        \-{{cookiecutter.slug}} templated content to propagate
+
+* conops
+  1. edit machoGrande/machoGrande/machoGrande.yaml as needed
+  2. exit machoGrande/machoGrande/machoGrande.py
+     - creates project directory in VIRTUALENV_HOME
+     - invoke pipenv
+     - adjust its content to the desired directory
+     - isntantiate cookiecutter-pybase with cookiecutter
+     - check in the initial content to git
