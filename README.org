@@ -7,11 +7,11 @@
 
 * layout
   machoGrande is laid out as follows:
-  machoGrande/                  virtual environment
-  \-machoGrande/                project, including this file
-    \-ccs/                      cookiecutter collection
-      \-cookiecutter-pybase/    initial python project
-        \-{{cookiecutter.slug}} templated content to propagate
+  0. machoGrande/               virtual environment
+  1. \-machoGrande/             project, including this file
+  2.  \-ccs/                    cookiecutter collection
+  3.   \-cookiecutter-pybase/   initial python project
+  4.    \-{{cookiecutter.slug}} templated content to propagate
 
 * conops
   1. edit machoGrande/machoGrande/machoGrande.yaml as needed
