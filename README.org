@@ -21,3 +21,7 @@
      - adjust its content to the desired directory
      - isntantiate cookiecutter-pybase with cookiecutter
      - check in the initial content to git
+
+* TODO:
+  Start AWSlib project for regular code, using machoGrande
+  Once machoGrande is working, add GitHub to the mix.
