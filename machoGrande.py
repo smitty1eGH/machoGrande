@@ -7,8 +7,9 @@ from   cookiecutter.main import cookiecutter
 from   yaml              import load,Loader
 
 #WARNING: Do not run machoGrande within a virtual
-#  environment. Pipenv cannot get over machoGrade
+#  environment. Pipenv cannot get over machoGrande
 #  running in a venv.
+#Just duplicate a session and CD to machoGrande and go
 
 #Assert: virtualenvmanager     installed
 #        WORKON_HOME           defined
@@ -16,22 +17,23 @@ from   yaml              import load,Loader
 #        cookiecutter template configured locally
 #        inputs entered        via CONFIG_SPEC
 
-ROOT_PATH    =os.environ[ 'WORKON_HOME']
-TEMPLATE_PATH='/home/osboxes/.cookiecutters/cookiecutter-cedar'
+ROOT_PATH=os.environ['WORKON_HOME']
+TEMPLATE_PATH='/home/osboxes/proj/machoGrande/machoGrande/ccs/'
+DEFAULT_CUTTER='cookiecutter-pybase/'
 
 #TODO: get rid of JSON config_spec. Load YAML to obtain PROJ_NAME,
 #  then co[y to TEMPLATE_PATH as cookiecutter.yaml.
-CONFIG_SPEC=ROOT_PATH + '/machoGrande/machoGrande.yaml'
+CONFIG_SPEC=ROOT_PATH + '/machoGrande/machoGrande/machoGrande.yaml'
 config={}
 with open(CONFIG_SPEC,'r') as f:
     config=load(f.read(),Loader=Loader)
-proj_name='fcrc' #config['project_slug']
+proj_name=config['project_slug']
 
 def adjust_location():
     '''Pipenv's design, while making great sense,
          is not what we prefer. After moving the
          venv to the desired location, eliminate
-         the random characters at the end of the 
+         the random characters at the end of the
          project path in the various management
          files.
     '''
@@ -49,7 +51,7 @@ def adjust_location():
 
     len_pdir=len(str(projdir))
     naughty_chars=str(realdir)[len_pdir:]
-    
+
     for f in fs:
         with open('%s%s' % (projdir,f),'r') as infile:
             lines=infile.readlines()
@@ -82,14 +84,14 @@ adjust_location()
 #Overwrite the cookiecutter inputs with the machoGrande.yml,
 #  then initialize the project.
 #TODO: Push JSON to TEMPLATE_PATH instead
-#shutil.copy(CONFIG_SPEC,TEMPLATE_PATH)pypackage
+#shutil.copy(CONFIG_SPEC,TEMPLATE_PATH)
 #import pdb; pdb.set_trace()
-cookiecutter('cookiecutter-cedar/',checkout=None,no_input=True
+cookiecutter(TEMPLATE_PATH+DEFAULT_CUTTER,checkout=None,no_input=True
             ,extra_context=None,replay=False,overwrite_if_exists=True
             ,output_dir=ROOT_PATH)
 
 ##Invoke git, and do the first commit.
-subprocess.run(['git','init'      ],cwd=projdir)
-subprocess.run(['git','add'   ,'.'],cwd=projdir)
-subprocess.run(['git','commit','-a'
-               ,'-m' ,'Over Macho Grande?'],cwd=projdir)
+#subprocess.run(['git','init'      ],cwd=projdir)
+#subprocess.run(['git','add'   ,'.'],cwd=projdir)
+#subprocess.run(['git','commit','-a'
+               #,'-m' ,'Over Macho Grande?'],cwd=projdir)
