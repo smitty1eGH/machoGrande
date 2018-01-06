@@ -18,12 +18,12 @@ from   yaml              import load,Loader
 #        inputs entered        via CONFIG_SPEC
 
 ROOT_PATH=os.environ['WORKON_HOME']
-TEMPLATE_PATH='/home/osboxes/proj/machoGrande/machoGrande/ccs/'
+TEMPLATE_PATH=ROOT_PATH + 'machoGrande/machoGrande/ccs/'
 DEFAULT_CUTTER='cookiecutter-pybase/'
 
 #TODO: get rid of JSON config_spec. Load YAML to obtain PROJ_NAME,
 #  then co[y to TEMPLATE_PATH as cookiecutter.yaml.
-CONFIG_SPEC=ROOT_PATH + '/machoGrande/machoGrande/machoGrande.yaml'
+CONFIG_SPEC=ROOT_PATH + '/machoGrande/machoGrande/machoGrande.json'
 config={}
 with open(CONFIG_SPEC,'r') as f:
     config=load(f.read(),Loader=Loader)
@@ -37,16 +37,11 @@ def adjust_location():
          project path in the various management
          files.
     '''
-    fs=['/bin/activate'
-       ,'/bin/activate.csh'
-       ,'/bin/activate.fish'
-       ,'/bin/easy_install'
-       ,'/bin/easy_install-3.6'
-       ,'/bin/pip'
-       ,'/bin/pip3'
-       ,'/bin/pip3.6'
-       ,'/bin/python-config'
-       ,'/bin/wheel'
+    fs=['/bin/activate'         ,'/bin/activate.csh'
+       ,'/bin/activate.fish'    ,'/bin/easy_install'
+       ,'/bin/easy_install-3.6' ,'/bin/pip'
+       ,'/bin/pip3'             ,'/bin/pip3.6'
+       ,'/bin/python-config'    ,'/bin/wheel'
        ]
 
     len_pdir=len(str(projdir))
@@ -81,17 +76,15 @@ shutil.move(realdir, projdir)
 adjust_location()
 
 
-#Overwrite the cookiecutter inputs with the machoGrande.yml,
+#Overwrite the cookiecutter inputs with the machoGrande.json,
 #  then initialize the project.
-#TODO: Push JSON to TEMPLATE_PATH instead
-#shutil.copy(CONFIG_SPEC,TEMPLATE_PATH)
-#import pdb; pdb.set_trace()
+shutil.copy(CONFIG_SPEC,TEMPLATE_PATH+DEFAULT_CUTTER+'cookiecutter.json')
 cookiecutter(TEMPLATE_PATH+DEFAULT_CUTTER,checkout=None,no_input=True
             ,extra_context=None,replay=False,overwrite_if_exists=True
             ,output_dir=ROOT_PATH)
 
 ##Invoke git, and do the first commit.
-#subprocess.run(['git','init'      ],cwd=projdir)
-#subprocess.run(['git','add'   ,'.'],cwd=projdir)
-#subprocess.run(['git','commit','-a'
-               #,'-m' ,'Over Macho Grande?'],cwd=projdir)
+subprocess.run(['git','init'      ],cwd=projdir)
+subprocess.run(['git','add'   ,'.'],cwd=projdir)
+subprocess.run(['git','commit','-a'
+               ,'-m' ,'Over Macho Grande?'],cwd=projdir)
