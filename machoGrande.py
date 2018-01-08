@@ -19,19 +19,19 @@ from   yaml              import load,Loader
 #        inputs entered        via CONFIG_SPEC
 
 ROOT_PATH     =os.environ['WORKON_HOME']
-TEMPLATE_PATH =ROOT_PATH + 'machoGrande/machoGrande/ccs/'
-DEFAULT_CUTTER='cookiecutter-pybase/'
-CONFIG_SPEC   =ROOT_PATH + '/machoGrande/machoGrande/machoGrande.json'
+TEMPLATE_PATH =ROOT_PATH      + '/machoGrande/machoGrande/ccs/'
+DEFAULT_CUTTER=TEMPLATE_PATH  + 'cookiecutter-pybase/'
+CONFIG_SPEC   =ROOT_PATH      + '/machoGrande/machoGrande/machoGrande.json'
 
 def step_zero_obtain_project_name():
     '''Peek at machoGrande.json for the name of the project.
     '''
-    config        ={}
+    config={}
     with open(CONFIG_SPEC,'r') as f:
         config=load(f.read(),Loader=Loader)
     return config['project_slug']
 
-def step_one_create_project_directory():
+def step_one_create_project_directory(proj_name):
     '''Here we go to our WORKON_HOME location and make the
        project directory.
        TODO: test for its existence, and either bomb out or
@@ -47,9 +47,9 @@ def step_one_create_project_directory():
     #Globbing returns a generator, we know it's a 1-element
     #  comprehension; grab the first element #FTW
     realdir=[p for p in Path(ROOT_PATH).glob('%s-*' % proj_name)][0]
-    return realdir
+    return projdir,realdir
 
-def step_two_adjust_project_location(realdir):
+def step_two_adjust_project_location(projdir,realdir):
     '''Move the Pipfile to realdir; rmdir projdir, rename
        realdir to projdir
        Pipenv's design, while making great sense,
@@ -88,9 +88,9 @@ def step_three_invoke_cookiecutter():
        Let's admit that this approach understands cookiecutter
          about as well as it understands pipenv
     '''
-    shutil.copy(CONFIG_SPEC
-               ,TEMPLATE_PATH+DEFAULT_CUTTER+'cookiecutter.json')
-    cookiecutter(TEMPLATE_PATH+DEFAULT_CUTTER
+    shutil.copy( CONFIG_SPEC
+               , DEFAULT_CUTTER + 'cookiecutter.json')
+    cookiecutter(DEFAULT_CUTTER
                 ,checkout=None,no_input=True
                 ,extra_context=None,replay=False
                 ,overwrite_if_exists=True
@@ -105,9 +105,9 @@ def step_four_gittify_project():
                    ,'-m' ,'Over Macho Grande?'],cwd=projdir)
 
 if __name__=='__main__':
-    proj_name=step_zero_obtain_project_name()
-    real_dir =step_one_create_project_directory(proj_name)
-    step_two_adjust_project_location(real_dir)
+    proj_name       =step_zero_obtain_project_name()
+    projdir,real_dir=step_one_create_project_directory(proj_name)
+    step_two_adjust_project_location(projdir,real_dir)
     step_three_invoke_cookiecutter()
     step_four_gittify_project()
     #TODO
