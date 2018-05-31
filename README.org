@@ -22,6 +22,34 @@
      - isntantiate cookiecutter-pybase with cookiecutter
      - check in the initial content to git
 
-* TODO:
-  Start AWSlib project for regular code, using machoGrande
-  Once machoGrande is working, add GitHub to the mix.
+* installation
+
+** arch
+   pacman -S python-pip python-pipenv python-virtualenvwrapper
+
+** gentoo   
+
+** non-distro specific 
+
+   pip install --upgrade pip
+   # virtualenvwrapper setup
+   
+   cat <<EOF >> ~/.bashrc
+   PDIR="~/proj/"
+   export WORKON_HOME="${PDIR}"
+   source /usr/bin/virtualenvwrapper.sh
+   EOF
+   
+   When you source .bashrc, you get a dozen files, that both clutter ${PDIR}
+     and encroach on your project namespace. But you know where they are.
+   ${PIDR}premkproject      ${PIDR}postmkproject     ${PIDR}initialize
+   ${PIDR}premkvirtualenv   ${PIDR}postmkvirtualenv  ${PIDR}prermvirtualenv
+   ${PIDR}postrmvirtualenv  ${PIDR}predeactivate     ${PIDR}postdeactivate
+   ${PIDR}preactivate       ${PIDR}postactivate      ${PIDR}get_env_details
+   
+   pip install cookiecutter
+   
+   mkdir     /home/smitty/proj/machoGrande
+   cd        /home/smitty/proj/machoGrande
+   git clone https://github.com/smitty1eGH/machoGrande.git
+
